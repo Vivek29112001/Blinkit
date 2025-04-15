@@ -1,8 +1,9 @@
 /* Global Link Styling */
 a {
-    color: #48b539;
+    color: #ffffff;
     text-decoration: none;
-    background-color: #82997f;
+    /* background-color: #82997f; */
+    background-color: blue;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
