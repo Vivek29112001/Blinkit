@@ -1,0 +1,71 @@
+.header {
+    background-color: #FFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    /* padding: 15px 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Home header styling */
+.header.home {
+    border-bottom: 3px solid #00b300;
+}
+
+/* Cart header styling */
+.header.cart {
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #007acc;
+}
+
+.logo {
+    /* margin:2px; */
+    font-size: 26px;
+    font-weight: bold;
+    color: #00b300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-form {
+    flex: 1;
+    margin: 0 40px;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+}
+
+.search-form input:focus {
+    outline: none;
+    border-color: #00b300;
+    box-shadow: 0 0 5px rgba(0,179,0,0.3);
+}
+
+.theme-logo {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(240, 232, 232);
+    gap: 0;
+}
+
